@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+     <!--main navigation begins here-->
+<body class="bg-pink-100">
+    <div class="container h-8 p-6">
+        <div class="md:flex md:flex-row md:justify-between text-center items-center mr-16 ml-16">
+         <div class="flex flex-row justify-center items-center">
+            <div class="bg-gradient-to-r from-purple-500 to-red-500 w-9 h-9 rounded-lg"></div>
+            <h1 class="text-3xl ml-2 text-gray-600">Logo</h1>
+        </div>
+        <div class="flex flex-row mt-2 bg-pink-100 md:bg-pink-100 space-x-8">
+            <div class="fitem hover:text-purple-900 hover:underline hover:underline-offset-8 cursor-pointer">HOME</div>
+            <div class="fitem hover:text-purple-900 hover:underline hover:underline-offset-8 cursor-pointer">SHOP</div>
+            <div class="fitem hover:text-purple-900 hover:underline hover:underline-offset-8 cursor-pointer">BLOG</div>
+            <div class="fitem hover:text-purple-900 hover:underline hover:underline-offset-8 cursor-pointer">CONTACT</div>
+            <div class="fitem bg-purple-700 text-gray-100 hover:bg-purple-700 p-2 px-5 py-0 sm:rounded-full cursor-pointer">
+                <img class="inline-block mx-auto size-6" src="images/icons/cart.svg" alt="">
+                CART (0)
+           </div>
+         </div>
+    </div> <!--main navigation ends here-->
+
+
+    <!--hero section begins here-->
+    <div class="md:flex md:flex-row mt-12">
+        <div class="md:w-2/5 flex flex-col items-center justify-center italic ">
+            <h2 class="font-serif text-gray-600 text-5xl mb-4 text-center md:self-start md:text-center">Some Catchy Title Here</h2>
+            <p class="uppercase text-gray-600 tracking-wide text-center text-lg  md:self-start md:text-center">Our brand tagline goes here.</p>
+            <p class="uppercase text-gray-600 tracking-wide text-center text-lg  md:self-start md:text-center">Our brand motto goes here.</p>
+            <button class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-2 px-10 text-gray-200 hover:underline uppercase text-xl md:self-start my-5">
+                shop_now
+            </button>
+        </div>
+      <div class="md:w-3/5">
+        <img class="w-5/6" src="images/hero-img.svg" alt="">
+      </div>
+    </div> <!--hero section ends here-->
+
+
+    <!--men's collection begins here-->
+    <div class="my-20">
+        <div class="flex flex-row justify-between">
+            <h2 class="text-3xl">Men's Collection</h2>
+            <button class="text-xl flex flex-row">
+                View All
+                <img class="w-5 h-7 ml-1" src="images/icons/right_arrow.png" alt="">
+            </button>
+        </div>
+        <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 my-5 ml-5">
+            <div class="shadow-lg rounded-lg  bg-pink-200">
+             <button>
+                <img src="images/products/mens/product1.jpg" class="rounded-tl-lg rounded-tr-lg" alt="">
+             </button>
+             <div class="p-2">
+                <h3><button class="text-3xl italic">T-Shirt</button></h3>
+                <div class="flex flex-row my-3">
+                    <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                    <div class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                    <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                    <div class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                    <div class="bg-green-700 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                </div>
+                <div class="flex flex-row my-3">
+                    <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">S</div>
+                    <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">M</div>
+                    <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">L</div>
+                    <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XL</div>
+                    <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XXL</div>
+                </div>
+                <div class="flex flex-col xl:flex-row justify-between xl:text-center xl:gap-7 my-4">
+                  <button class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-3 px-4 sm:my-3 md:my-3 lg:my-3 xl:my-0 flex flex-row hover:from-pink-600 hover:to-pink-600 text-gray-200 justify-center hover:underline text-sm ">
+                        <img src="images/icons/cart.svg" class="inline-block mx-1 size-5 mr-1 xl:ml-auto" alt="">Add_To_Cart
+                    </button>
+                    <button class="bg-purple-700 rounded-full py-2 px-4 flex flex-row hover:bg-purple-800 text-gray-200 hover:underline justify-center  text-sm">
+                        <img src="images/icons/right_arrow.png" class="w-5 h-7 mr-1 xl:ml-auto" alt="">View_Details
+                    </button>
+                </div>  
+             </div>
+            </div>
+
+            <div class="shadow-lg rounded-lg  bg-pink-200">
+                <button>
+                   <img src="images/products/mens/product2.jpg" class="rounded-tl-lg rounded-tr-lg" alt="">
+                </button>
+                <div class="p-2">
+                   <h3><button class="text-3xl italic">Trousers / Jeans</button></h3>
+                   <div class="flex flex-row my-3">
+                       <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-green-700 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                   </div>
+                   <div class="flex flex-row my-3">
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">S</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">M</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">L</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XL</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XXL</div>
+                   </div>
+                   <div class="flex flex-col xl:flex-row justify-between xl:text-center xl:gap-7 my-4">
+                       <button class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-3 px-4 sm:my-3 md:my-3 lg:my-3 xl:my-0 flex flex-row justify-center hover:from-pink-600 hover:to-pink-600 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/cart.svg" class="inline-block mx-1 size-5 mr-1 xl:ml-auto" alt="">Add_To_Cart
+                       </button>
+                       <button class="bg-purple-700 rounded-full py-2 px-4 flex flex-row justify-center hover:bg-purple-800 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/right_arrow.png" class="w-5 h-7 mr-1 xl:ml-auto" alt="">View_Details
+                       </button>
+                   </div>  
+                </div>
+               </div>
+
+               <div class="shadow-lg rounded-lg bg-pink-200">
+                <button>
+                   <img src="images/products/mens/product3.jpg" class="rounded-tl-lg rounded-tr-lg" alt="">
+                </button>
+                <div class="p-2">
+                   <h3><button class="text-3xl italic">Shoes</button></h3>
+                   <div class="flex flex-row my-3">
+                       <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-green-700 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                   </div>
+                   <div class="flex flex-row my-3">
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">6</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">7</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">8</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">9</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">10</div>
+                   </div>
+                   <div class="flex flex-col xl:flex-row justify-between xl:text-center xl:gap-7 my-4">
+                       <button class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-3 px-4 sm:my-3 md:my-3 lg:my-3 xl:my-0 flex flex-row justify-center hover:from-pink-600 hover:to-pink-600 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/cart.svg" class="inline-block mx-1 size-5 mr-1 xl:ml-auto" alt=""> Add_To_Cart
+                       </button>
+                       <button class="bg-purple-700 rounded-full py-2 px-4 flex flex-row justify-center hover:bg-purple-800 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/right_arrow.png" class="w-5 h-7 mr-1 xl:ml-auto" alt=""> View_Details
+                       </button>
+                   </div>  
+                </div>
+               </div>
+
+               <div class="shadow-lg rounded-lg  bg-pink-200">
+                <button>
+                   <img src="images/products/mens/product4.jpg" class="rounded-tl-lg rounded-tr-lg" alt="">
+                </button>
+                <div class="p-2">
+                   <h3><button class="text-3xl italic">Wrist Watches</button></h3>
+                   <div class="flex flex-row my-3">
+                       <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-green-700 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                   </div>
+                   <div class="flex flex-row my-3">
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">S</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">M</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">L</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XL</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XXL</div>
+                   </div>
+                   <div class="flex flex-col xl:flex-row justify-between xl:text-center xl:gap-7 my-4">
+                       <button class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-3 px-4 sm:my-3 md:my-3 lg:my-3 xl:my-0 flex flex-row justify-center hover:from-pink-600 hover:to-pink-600 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/cart.svg" class="inline-block mx-1 size-5 mr-1 xl:ml-auto" alt="">Add_To_Cart
+                       </button>
+                       <button class="bg-purple-700 rounded-full py-2 px-4 flex flex-row justify-center hover:bg-purple-800 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/right_arrow.png" class="w-5 h-7 mr-1 xl:ml-auto" alt="">View_Details
+                       </button>
+                   </div>  
+                </div>
+               </div>
+        </div>
+    </div> <!--men's collection ends here-->
+
+
+    <!--women's collection begins here-->
+    <div class="my-20">
+        <div class="flex flex-row justify-between">
+            <h2 class="text-3xl italic">Women's Collection</h2>
+            <button class="text-xl flex flex-row">
+                View All
+                <img class="w-5 h-7 ml-1" src="images/icons/right_arrow.png" alt="">
+            </button>
+        </div>
+        <div class="grid grid-flow-row grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 my-5 ml-5">
+            <div class="shadow-lg rounded-lg  bg-pink-200">
+             <button>
+                <img src="images/products/womens/product1 (1).jpg" class="rounded-tl-lg rounded-tr-lg" alt="">
+             </button>
+             <div class="p-2">
+                <h3><button class="text-3xl">Tops</button></h3>
+                <div class="flex flex-row my-3">
+                    <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                    <div class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                    <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                    <div class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                    <div class="bg-green-700 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                </div>
+                <div class="flex flex-row my-3">
+                    <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">S</div>
+                    <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">M</div>
+                    <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">L</div>
+                    <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XL</div>
+                    <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XXL</div>
+                </div>
+                <div class="flex flex-col xl:flex-row justify-between xl:text-center xl:gap-7 my-4">
+                  <button class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-3 px-4 sm:my-3 md:my-3 lg:my-3 xl:my-0 flex flex-row hover:from-pink-600 hover:to-pink-600 text-gray-200 justify-center hover:underline text-sm ">
+                        <img src="images/icons/cart.svg" class="inline-block mx-1 size-5 mr-1 xl:ml-auto" alt="">Add_To_Cart
+                    </button>
+                    <button class="bg-purple-700 rounded-full py-2 px-4 flex flex-row hover:bg-purple-800 text-gray-200 hover:underline justify-center  text-sm">
+                        <img src="images/icons/right_arrow.png" class="w-5 h-7 mr-1 xl:ml-auto" alt="">View_Details
+                    </button>
+                </div>  
+             </div>
+            </div>
+
+            <div class="shadow-lg rounded-lg  bg-pink-200">
+                <button>
+                   <img src="images/products/womens/product2 (1).jpg" class="rounded-tl-lg rounded-tr-lg" alt="">
+                </button>
+                <div class="p-2">
+                   <h3><button class="text-3xl italic">Midi</button></h3>
+                   <div class="flex flex-row my-3">
+                       <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-green-700 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                   </div>
+                   <div class="flex flex-row my-3">
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">S</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">M</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">L</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XL</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XXL</div>
+                   </div>
+                   <div class="flex flex-col xl:flex-row justify-between xl:text-center xl:gap-7 my-4">
+                       <button class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-3 px-4 sm:my-3 md:my-3 lg:my-3 xl:my-0 flex flex-row justify-center hover:from-pink-600 hover:to-pink-600 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/cart.svg" class="inline-block mx-1 size-5 mr-1 xl:ml-auto" alt="">Add_To_Cart
+                       </button>
+                       <button class="bg-purple-700 rounded-full py-2 px-4 flex flex-row justify-center hover:bg-purple-800 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/right_arrow.png" class="w-5 h-7 mr-1 xl:ml-auto" alt="">View_Details
+                       </button>
+                   </div>  
+                </div>
+               </div>
+
+               <div class="shadow-lg rounded-lg bg-pink-200">
+                <button>
+                   <img src="images/products/womens/product3 (1).jpg" class="rounded-tl-lg rounded-tr-lg" alt="">
+                </button>
+                <div class="p-2">
+                   <h3><button class="text-3xl italic">One-Piece Dress</button></h3>
+                   <div class="flex flex-row my-3">
+                       <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-green-700 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                   </div>
+                   <div class="flex flex-row my-3">
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">S</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">M</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">L</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XL</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XXL</div>
+                   </div>
+                   <div class="flex flex-col xl:flex-row justify-between xl:text-center xl:gap-7 my-4">
+                       <button class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-3 px-4 sm:my-3 md:my-3 lg:my-3 xl:my-0 flex flex-row justify-center hover:from-pink-600 hover:to-pink-600 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/rt.svg" class="inline-block mx-1 size-5 mr-1 xl:ml-auto" alt=""> Add_To_Cart
+                       </button>
+                       <button class="bg-purple-700 rounded-full py-2 px-4 flex flex-row justify-center hover:bg-purple-800 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/right_arrow.png" class="w-5 h-7 mr-1 xl:ml-auto" alt=""> View_Details
+                       </button>
+                   </div>  
+                </div>
+               </div>
+
+               <div class="shadow-lg rounded-lg bg-pink-200">
+                <button>
+                   <img src="images/products/womens/product4 (1).jpg" class="rounded-tl-lg rounded-tr-lg" alt="">
+                </button>
+                <div class="p-2">
+                   <h3><button class="text-3xl italic">Shorts</button></h3>
+                   <div class="flex flex-row my-3">
+                       <div class="bg-black h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-blue-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-white h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-red-800 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                       <div class="bg-green-700 h-5 w-5 rounded-full shadow-md mr-2 border hover:border-black"></div>
+                   </div>
+                   <div class="flex flex-row my-3">
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">S</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">M</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">L</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XL</div>
+                       <div class="border-2 border-gray-300 hover:border-black text-gray-500 rounded-md text-sm px-2 mr-2 py-1">XXL</div>
+                   </div>
+                   <div class="flex flex-col xl:flex-row justify-between xl:text-center xl:gap-7 my-4">
+                       <button class="bg-gradient-to-r from-red-600 to-pink-500 rounded-full py-3 px-4 sm:my-3 md:my-3 lg:my-3 xl:my-0 flex flex-row justify-center hover:from-pink-600 hover:to-pink-600 text-gray-200 text-sm hover:underline">
+                           <img src="images/icons/cart.svg" class="inline-block mx-1 size-5 mr-1 xl:ml-auto" alt="">Add_To_Cart
+                       </button>
+                       <button class="bg-purple-700 rounded-full py-2 px-4 flex flex-row justify-center hover:bg-purple-800 text-gray-200 hover:underline text-sm">
+                           <img src="images/icons/right_arrow.png" class="w-5 h-7 mr-1 xl:ml-auto" alt="">View_Details
+                       </button>
+                   </div>  
+                </div>
+               </div>
+        </div>
+    </div> <!--women's collection ends here-->
+
+
+    <!--newsletter section begins-->
+    <div class="rounded-lg shadow-lg my-20 flex flex-row">
+        <div class="lg:w-3/5 w-full bg-gradient-to-r from-black to-purple-900 lg:from-black lg:via-purple-900 lg:to-transparent rounded-lg text-gray-300 ">
+            <div class="lg:w-1/2 py-24 px-8">
+              <h3 class="text-2xl font-extrabold mb-2">Subscribe to get our offers first</h3>
+              <p class="mb-4 leading-relaxed">Want to hear from us when we have new offers? Sign up for our newsletters
+                and we'll email you every time we have new sale offers.</p>
+                <div>
+                    <input type="email" placeholder="Enter email address" class="bg-gray-600 text-gray-200 placeholder-gray-400 px-4 py-3 w-full rounded-lg focus:outline-none mb-4">
+                    <button type="submit" class="bg-red-600 py-3 rounded-lg w-full">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-2/5 w-full lg:flex lg:flex-row hidden">
+            <img src="images/subscribe-banner.png" class="h-96" alt="">
+        </div>
+    </div> <!--Newsletter Section ends here-->
+
+
+    <!--footer begins here-->
+    <div class="border-t-2 border-gray-700 flex flex-col md:flex-row md:justify-between text-center py-5 text-lg">
+      <div class="mb-4">
+       <button class="mx-2.5 hover:underline">About</button>
+       <button class="mx-2.5 hover:underline">Privacy Policy</button>
+       <button class="mx-2.5 hover:underline">Terms Of Services</button>
+      </div>
+      <p class="hover:underline">&copy; Copyright Reserved 2024</p>
+    </div> <!--footer ends here-->
+</div>
+</body>
+</html>
